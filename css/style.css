@@ -73,11 +73,28 @@ background-color: rgba(0, 0, 0, 0.5);
     background-color: #A66D3C;
     color: white;
 }
-
 .opening-hours-section .btn-contact:hover {
     border: 2px solid white;
     transform: scale(1.05);
 }
+
+/*---------------------------------------------------------
+ LATTE ART SECTION BUTTONS
+---------------------------------------------------------*/
+.latte-art-section .btn-contact {
+    background-color: var(--secondary-colour);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+.latte-art-section .btn-contact:hover {
+    background-color: #f0f0f0;
+    color: var(--secondary-colour);
+    border: 2px solid #A66D3C;
+    transform: scale(1.05);
+}   
 
 /*---------------------------------------------------------
  CARD COMPONENT STYLES
